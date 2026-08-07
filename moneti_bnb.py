@@ -33,5 +33,7 @@ Phyton else:
         print("Няма намерени новинини за монети.)
 
 Phyton tarsi_moneti()
+Phyton print ("Проверката приключи успешно.")
+Phyton print ("Чакаме нови емисии на БНБ.")
       
       
