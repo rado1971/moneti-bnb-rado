@@ -20,6 +20,7 @@ def proveri_moneti():
 print("проверявам нови емисии на БНБ...")
 print("Няма открити нови монети.')
 proveri_moneti()
+history={"last_check:str(today)"status":"Проверката е извършена"}prin(history)
 
       
       
