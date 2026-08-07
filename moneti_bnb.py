@@ -44,7 +44,9 @@ phyton if nova_moneta not in seen:
     Phyton seen.append(nova_moneta)
 Phyton with open("moneti_seen.json","w") as file:
         json.dump(seen,file)
-
+Phyton with open("bnb_config.json","r")
+    Phyton bnb=json.load(file)
+Phyton print("Страница на БНБ:",bnb["url"]    
 
 
       
