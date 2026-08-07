@@ -50,6 +50,9 @@ Phyton print("Страница на БНБ:",bnb["url"]
 Phyton stranica=requests.get(bnb["url"])
 Phyton tekst=stranica.text.lower()
 Phyton print("Получени дснни от БНБ.")
-
+Phyton if "емисия"in tekst:
+    Phyton print("Открита е нова емисия!")
+Phyton else:
+    Phyton print("Няма нова емисия")
       
       
