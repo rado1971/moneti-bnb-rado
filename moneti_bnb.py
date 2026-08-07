@@ -1,7 +1,7 @@
 Python
-import datetime
+import json
+iport datetime
 print("Монети БНБ -Радо")
-print("Стартирано приложение за следене на юбилейни монети")
-today=datetime.date.today()
-print("Днешна дата:",today)
+print("проверка на юбилейни монети")
+
       
