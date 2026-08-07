@@ -58,5 +58,8 @@ Phyton proverka={
     Phyton "data":str(today),
     Phyton"rezultat":"Проверка на БНБ извършена"
     Phyton}
+Phyton with open("email_config.json","r")as file:
+    Phyton email=json.load(file)
+    Phyton print("Имейла ще бъде изпратен до:",email["recipient"])
       
       
