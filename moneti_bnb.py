@@ -35,5 +35,17 @@ Phyton else:
 Phyton tarsi_moneti()
 Phyton print ("Проверката приключи успешно.")
 Phyton print ("Чакаме нови емисии на БНБ.")
+Phyton with open("moneti_seen.json,"r") as file:
+    Phyton seen=json.load(file)
+Phyton print("Запомнени монети",seen)
+Phyton if nova_moneta="тестова юбилейна монет"
+phyton if nova_moneta not in seen:
+    Phyton print("Нова монета ;",nova_moneta)
+    Phyton seen.append(nova_moneta)
+Phyton with open("moneti_seen.json","w") as file:
+        json.dump(seen,file)
+
+
+
       
       
