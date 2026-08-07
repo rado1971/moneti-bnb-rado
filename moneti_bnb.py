@@ -61,5 +61,11 @@ Phyton proverka={
 Phyton with open("email_config.json","r")as file:
     Phyton email=json.load(file)
     Phyton print("Имейла ще бъде изпратен до:",email["recipient"])
+Phyton saobshtenie=(
+    Phyton"Здравей,Радо!"
+    Phyton"БНБ има нова юбилейна монета."
+    Phyton)
+    Phyton print(saobshtenie)
+    
       
       
