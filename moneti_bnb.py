@@ -54,5 +54,9 @@ Phyton if "емисия"in tekst:
     Phyton print("Открита е нова емисия!")
 Phyton else:
     Phyton print("Няма нова емисия")
+Phyton proverka={
+    Phyton "data":str(today),
+    Phyton"rezultat":"Проверка на БНБ извършена"
+    Phyton}
       
       
