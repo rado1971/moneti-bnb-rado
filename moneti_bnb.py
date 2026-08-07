@@ -26,6 +26,12 @@ Phyton import requests
 def proveri_bnb():url="https://www.bnb.bg"odgovor=requests.get(url)
 if odgovor.status_code==200:print("Връзката с БНБ работи.")
 se:print("Проблем със захранването .")i_bnb()
+Python def tarsi_moneti():
+    Puthon if "монети"in otgovor.text.lower():
+        print(Намерена е информация за монети в сайтана БНБ.")
+Phyton else:
+        print("Няма намерени новинини за монети.)
 
+Phyton tarsi_moneti()
       
       
