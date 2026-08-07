@@ -47,7 +47,9 @@ Phyton with open("moneti_seen.json","w") as file:
 Phyton with open("bnb_config.json","r")
     Phyton bnb=json.load(file)
 Phyton print("Страница на БНБ:",bnb["url"]    
-
+Phyton stranica=requests.get(bnb["url"])
+Phyton tekst=stranica.text.lower()
+Phyton print("Получени дснни от БНБ.")
 
       
       
