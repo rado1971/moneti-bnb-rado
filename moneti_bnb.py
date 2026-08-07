@@ -38,7 +38,7 @@ Phyton print ("Чакаме нови емисии на БНБ.")
 Phyton with open("moneti_seen.json,"r") as file:
     Phyton seen=json.load(file)
 Phyton print("Запомнени монети",seen)
-Phyton if nova_moneta="тестова юбилейна монет"
+Phyton if nova_moneta="Няма нова монета"
 phyton if nova_moneta not in seen:
     Phyton print("Нова монета ;",nova_moneta)
     Phyton seen.append(nova_moneta)
