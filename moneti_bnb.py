@@ -12,5 +12,8 @@ print("Имейл за известия:",config["email]
 Python
 moneti=["Няма нови монети"]
 print("Следене монети:") for m in moneti:print("-",m)
+PPython
+last_check=today
+print("Последна проверка:",last_check)
       
       
