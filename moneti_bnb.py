@@ -15,5 +15,11 @@ print("Следене монети:") for m in moneti:print("-",m)
 PPython
 last_check=today
 print("Последна проверка:",last_check)
+Phyton
+def proveri_moneti():
+print("проверявам нови емисии на БНБ...")
+print("Няма открити нови монети.')
+proveri_moneti()
+
       
       
