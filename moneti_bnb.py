@@ -21,6 +21,11 @@ print("проверявам нови емисии на БНБ...")
 print("Няма открити нови монети.')
 proveri_moneti()
 history={"last_check:str(today)"status":"Проверката е извършена"}prin(history)
+Phyton import requests
+
+def proveri_bnb():url="https://www.bnb.bg"odgovor=requests.get(url)
+if odgovor.status_code==200:print("Връзката с БНБ работи.")
+se:print("Проблем със захранването .")i_bnb()
 
       
       
